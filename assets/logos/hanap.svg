@@ -1,5 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="hanap">
-  <rect width="64" height="64" rx="14" fill="#0F1F2E"/>
-  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#5CC8FF" stroke-opacity=".35" stroke-width="1.5"/>
-  <text x="32" y="32" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="25" letter-spacing="-1" fill="#5CC8FF">HN</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-tile="1" viewBox="0 0 64 64" width="64" height="64">
+<rect width="64" height="64" rx="14" fill="#1b2330"/><rect x=".75" y=".75" width="62.5" height="62.5" rx="13.25" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.5"/>
+<svg x="9" y="9" width="46" height="46" viewBox="0 0 16 16">
+  <title>HANAP</title>
+  <!-- ink field -->
+  <rect width="16" height="16" fill="#0b1f1a"/>
+  <!-- moss frame -->
+  <rect x="1" y="1" width="14" height="1" fill="#1f6b4f"/>
+  <rect x="1" y="14" width="14" height="1" fill="#1f6b4f"/>
+  <rect x="1" y="2" width="1" height="12" fill="#1f6b4f"/>
+  <rect x="14" y="2" width="1" height="12" fill="#1f6b4f"/>
+  <!-- pixel H -->
+  <rect x="4" y="3" width="2" height="10" fill="#e6ecef"/>
+  <rect x="10" y="3" width="2" height="10" fill="#e6ecef"/>
+  <rect x="6" y="7" width="4" height="2" fill="#e6ecef"/>
+  <!-- signal find-dot -->
+  <rect x="11" y="11" width="2" height="2" fill="#ff4d2e"/>
+</svg>
 </svg>

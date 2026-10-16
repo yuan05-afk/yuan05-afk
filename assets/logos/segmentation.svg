@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="segmentation">
-  <rect width="64" height="64" rx="14" fill="#1E1B33"/>
-  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#9D8CFF" stroke-opacity=".35" stroke-width="1.5"/>
-  <text x="32" y="32" text-anchor="middle" dominant-baseline="central" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="30" letter-spacing="-1" fill="#9D8CFF">K</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" data-tile="1" role="img" aria-label="segmentation">
+<rect width="64" height="64" rx="14" fill="#1E1B33"/><rect x=".75" y=".75" width="62.5" height="62.5" rx="13.25" fill="none" stroke="#9D8CFF" stroke-opacity=".38" stroke-width="1.5"/>
+<g transform="translate(16 16) scale(1.3333)" fill="none" stroke="#9D8CFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+  <circle cx="18.5" cy="5.5" r=".5" fill="currentColor" />
+  <circle cx="11.5" cy="11.5" r=".5" fill="currentColor" />
+  <circle cx="7.5" cy="16.5" r=".5" fill="currentColor" />
+  <circle cx="17.5" cy="14.5" r=".5" fill="currentColor" />
+  <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+</g></svg>
