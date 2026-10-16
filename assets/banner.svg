@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
   <title id="t">Yuan Andrei Mariano</title>
-  <desc id="d">CS (Data Science) student, Back-End AI Engineer and founder. Animated banner with a rising data line.</desc>
+  <desc id="d">CS (Data Science) student, Back-End AI Intern and founder. Animated banner with a rising data line.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a0e13"/>
@@ -74,11 +74,11 @@
 
     <g class="sans" font-size="25" font-weight="500" fill="#cbd5e1">
       <text class="role" x="64" y="192">CS · Data Science <tspan fill="#2dd4bf">@ FEU Tech</tspan></text>
-      <text class="role r2" x="64" y="192">Back-End AI Engineer <tspan fill="#2dd4bf">@ FlyRank AI</tspan></text>
+      <text class="role r2" x="64" y="192">Back-End AI Intern <tspan fill="#2dd4bf">@ FlyRank AI</tspan> · Jul-Oct '26</text>
       <text class="role r3" x="64" y="192">Founder <tspan fill="#2dd4bf">@ Yulee</tspan> · Modern Web Solutions</text>
     </g>
 
-    <text class="mono" x="64" y="250" font-size="15" fill="#64748b"><tspan fill="#f5b84a">$</tspan> ships grounded AI systems, data products &amp; full-stack apps<tspan class="caret" fill="#2dd4bf"> ▍</tspan></text>
+    <text class="mono" x="64" y="250" font-size="15" fill="#64748b"><tspan fill="#f5b84a">$</tspan> grounded AI, data products &amp; full-stack apps · open to work<tspan class="caret" fill="#2dd4bf"> ▍</tspan></text>
   </g>
   <rect x=".75" y=".75" width="1198.5" height="298.5" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
 </svg>
