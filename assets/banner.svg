@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Yuan Andrei Mariano</title>
+  <desc id="d">CS (Data Science) student, Back-End AI Engineer and founder. Animated banner with a rising data line.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e13"/>
+      <stop offset="1" stop-color="#0f1b24"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="82%" cy="30%" r="45%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="8%" cy="95%" r="40%">
+      <stop offset="0" stop-color="#f5b84a" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#f5b84a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".15"/>
+      <stop offset=".6" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#f5b84a"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',monospace}
+    .sans{font-family:'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
+    .role{opacity:0;animation:cycle 9s infinite}
+    .r2{animation-delay:3s}.r3{animation-delay:6s}
+    @keyframes cycle{0%{opacity:0;transform:translateY(8px)}6%,30%{opacity:1;transform:translateY(0)}36%,100%{opacity:0;transform:translateY(-8px)}}
+    .draw{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3.2s ease-out .3s forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .fade{opacity:0;animation:fade .8s ease-out forwards}
+    @keyframes fade{to{opacity:1}}
+    .dot{opacity:0;animation:pop .5s ease-out forwards}
+    @keyframes pop{0%{opacity:0;transform:scale(.2)}100%{opacity:1;transform:scale(1)}}
+    .pulse{animation:pulse 2.2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+    @keyframes pulse{0%,100%{opacity:.9;transform:scale(1)}50%{opacity:.25;transform:scale(2.4)}}
+    .caret{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect width="1200" height="300" fill="url(#glowA)"/>
+    <rect width="1200" height="300" fill="url(#glowB)"/>
+
+    <!-- rising data line (right side) -->
+    <g transform="translate(640 0)">
+      <path class="fade" style="animation-delay:1.2s" d="M0 250 L60 228 L120 236 L180 196 L240 204 L300 160 L360 172 L420 118 L480 128 L540 70 L540 300 L0 300Z" fill="url(#area)"/>
+      <path class="draw" d="M0 250 L60 228 L120 236 L180 196 L240 204 L300 160 L360 172 L420 118 L480 128 L540 70" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <g fill="#0a0e13" stroke="#2dd4bf" stroke-width="2">
+        <circle class="dot" style="animation-delay:.6s" cx="60"  cy="228" r="4.5"/>
+        <circle class="dot" style="animation-delay:1.0s" cx="180" cy="196" r="4.5"/>
+        <circle class="dot" style="animation-delay:1.5s" cx="300" cy="160" r="4.5"/>
+        <circle class="dot" style="animation-delay:2.0s" cx="420" cy="118" r="4.5"/>
+      </g>
+      <circle class="pulse" style="animation-delay:3.4s" cx="540" cy="70" r="5" fill="#f5b84a"/>
+      <circle class="dot" style="animation-delay:3.2s" cx="540" cy="70" r="5" fill="#f5b84a"/>
+      <text class="mono fade" style="animation-delay:3.4s" x="528" y="52" text-anchor="end" font-size="13" fill="#f5b84a">P@50  0.74</text>
+      <text class="mono fade" style="animation-delay:3.4s" x="528" y="66" text-anchor="end" font-size="10.5" fill="#94a3b8">vs 0.24 baseline</text>
+    </g>
+
+    <!-- text -->
+    <text class="mono" x="64" y="62" font-size="14" fill="#2dd4bf" letter-spacing="1.5">// yuan05-afk  ·  manila, ph</text>
+    <text class="sans" x="62" y="140" font-size="60" font-weight="800" fill="#f8fafc" letter-spacing="-1.5">Yuan Andrei Mariano</text>
+
+    <g class="sans" font-size="25" font-weight="500" fill="#cbd5e1">
+      <text class="role" x="64" y="192">CS · Data Science <tspan fill="#2dd4bf">@ FEU Tech</tspan></text>
+      <text class="role r2" x="64" y="192">Back-End AI Engineer <tspan fill="#2dd4bf">@ FlyRank AI</tspan></text>
+      <text class="role r3" x="64" y="192">Founder <tspan fill="#2dd4bf">@ Yulee</tspan> · Modern Web Solutions</text>
+    </g>
+
+    <text class="mono" x="64" y="250" font-size="15" fill="#64748b"><tspan fill="#f5b84a">$</tspan> ships grounded AI systems, data products &amp; full-stack apps<tspan class="caret" fill="#2dd4bf"> ▍</tspan></text>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="298.5" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>
