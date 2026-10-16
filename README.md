@@ -8,7 +8,7 @@
 [![FlyRank Works](https://img.shields.io/badge/FlyRank_Works-netlify.app-f5b84a?style=for-the-badge&labelColor=0a0e13)](https://yuan-mariano-works.netlify.app)
 [![Yulee](https://img.shields.io/badge/Studio-yulee.tech-7aa7ff?style=for-the-badge&labelColor=0a0e13)](https://www.yulee.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yuan--andrei--mariano-0a66c2?style=for-the-badge&labelColor=0a0e13)](https://linkedin.com/in/yuan-andrei-mariano-201643312)
-[![Email](https://img.shields.io/badge/Email-ymarianoandrei@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e13)](mailto:ymarianoandrei@gmail.com)
+[![Email](https://img.shields.io/badge/Email-yuanandreicmariano@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e13)](mailto:yuanandreicmariano@gmail.com)
 
 </div>
 
