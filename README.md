@@ -24,7 +24,7 @@
 I'm a **Computer Science student specializing in Data Science** who builds *systems that earn trust*: ML models you can audit, AI agents that refuse to guess, and full-stack products for real Filipino problems.
 
 - **Studying:** B.S. Computer Science, Data Science at **FEU Institute of Technology** (2023 - present). Dean's and President's Lister, **Dean's Gold** (2nd Term, S.Y. 2024-2025).
-- **Experience:** Back-End AI Engineering Intern at **[FlyRank AI](https://flyrank.ai)**, Jul - Oct 2026 (completed). The capstones, backend work and ML research are collected in [FlyRank Works](#flyrank-works).
+- **Experience:** Back-End AI Engineering Intern at **[FlyRank AI](https://flyrank.ai)**, Jul - Sep 2026 (completed). The capstones, backend work and ML research are collected in [FlyRank Works](#flyrank-works).
 - **Founding:** **[Yulee](https://www.yulee.tech)**, a Modern Web Solutions studio for dental, dermatology, solar, real estate, law and craft brands.
 - **Now:** finishing my undergraduate thesis, growing Yulee, and open to internships and entry-level roles in backend, AI and data.
 - **Interested in:** decision-support ML, grounded LLM and RAG systems, civic tech, data products.
@@ -82,13 +82,13 @@ Deployed projects with public code come first. Open any card to use the live app
 <a id="flyrank-works"></a>
 <h2><img src="assets/icons/flask-conical.svg" width="26" height="26" alt="">&nbsp;FlyRank Works</h2>
 
-Everything I built as a Back-End AI Engineering Intern at FlyRank AI (Jul - Oct 2026, completed), in one place.
+Everything I built as a Back-End AI Engineering Intern at FlyRank AI (Jul - Sep 2026, completed), in one place.
 
 <table width="100%">
 <tr>
 <td width="64" align="center" valign="middle"><img src="assets/logos/hub.svg" width="52" height="52" alt=""></td>
 <td valign="middle"><a href="https://yuan-mariano-works.netlify.app/"><b>FlyRank Works Hub</b></a>&nbsp;&nbsp;<a href="https://yuan-mariano-works.netlify.app/"><img src="assets/pills/live.svg" width="50" height="18" alt="live"></a><br>
-One static site that publishes everything from my Back-End AI Engineering internship at FlyRank AI (completed October 2026): capstones, backend assignments, General AI Fluency and the machine-learning track.<br>
+One static site that publishes everything from my Back-End AI Engineering internship at FlyRank AI (completed September 2026): capstones, backend assignments, General AI Fluency and the machine-learning track.<br>
 <sub>Source lives in a local Netlify project, not on GitHub. Each item below links to its live page and, where public, its code.</sub></td>
 </tr>
 </table>
