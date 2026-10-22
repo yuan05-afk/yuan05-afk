@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Yuan Andrei Mariano. CS (Data Science), Back-End AI Intern, Founder of Yulee." width="100%">
+<img src="assets/banner.svg" alt="Yuan Andrei Mariano. CS (Data Science), Back-End AI Intern." width="100%">
 
 <br>
 

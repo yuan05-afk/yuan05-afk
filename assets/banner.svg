@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
   <title id="t">Yuan Andrei Mariano</title>
-  <desc id="d">CS (Data Science) student, Back-End AI Intern and founder. Animated banner with a rising data line.</desc>
+  <desc id="d">CS (Data Science) student, Back-End AI Intern. Animated banner with a rising data line.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a0e13"/>
@@ -31,9 +31,9 @@
   <style>
     .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'SFMono-Regular',monospace}
     .sans{font-family:'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif}
-    .role{opacity:0;animation:cycle 9s infinite}
-    .r2{animation-delay:3s}.r3{animation-delay:6s}
-    @keyframes cycle{0%{opacity:0;transform:translateY(8px)}6%,30%{opacity:1;transform:translateY(0)}36%,100%{opacity:0;transform:translateY(-8px)}}
+    .role{opacity:0;animation:cycle 6s infinite}
+    .r2{animation-delay:3s}
+    @keyframes cycle{0%{opacity:0;transform:translateY(8px)}6%,45%{opacity:1;transform:translateY(0)}51%,100%{opacity:0;transform:translateY(-8px)}}
     .draw{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 3.2s ease-out .3s forwards}
     @keyframes draw{to{stroke-dashoffset:0}}
     .fade{opacity:0;animation:fade .8s ease-out forwards}
@@ -75,7 +75,6 @@
     <g class="sans" font-size="25" font-weight="500" fill="#cbd5e1">
       <text class="role" x="64" y="192">CS · Data Science <tspan fill="#2dd4bf">@ FEU Tech</tspan></text>
       <text class="role r2" x="64" y="192">Back-End AI Intern <tspan fill="#2dd4bf">@ FlyRank AI</tspan> · Jul-Oct '26</text>
-      <text class="role r3" x="64" y="192">Founder <tspan fill="#2dd4bf">@ Yulee</tspan> · Modern Web Solutions</text>
     </g>
 
     <text class="mono" x="64" y="250" font-size="15" fill="#64748b"><tspan fill="#f5b84a">$</tspan> grounded AI, data products &amp; full-stack apps · open to work<tspan class="caret" fill="#2dd4bf"> ▍</tspan></text>
